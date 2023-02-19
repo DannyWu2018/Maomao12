@@ -1,7 +1,7 @@
 {
-  "name": "new_auth_me",
+  "name": "airbnb",
   "version": "1.0.0",
-  "description": "",
+  "description": "`<insert database schema design here>`",
   "main": "index.js",
   "scripts": {
     "install": "npm --prefix backend install backend",
@@ -13,13 +13,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Alec-Keeler/new_auth_me.git"
+    "url": "git+https://github.com/yuanshuo-wu/AirBnB.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Alec-Keeler/new_auth_me/issues"
+    "url": "https://github.com/yuanshuo-wu/AirBnB/issues"
   },
-  "homepage": "https://github.com/Alec-Keeler/new_auth_me#readme"
+  "homepage": "https://github.com/yuanshuo-wu/AirBnB#readme"
 }
