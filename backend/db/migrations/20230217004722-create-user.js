@@ -15,25 +15,44 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      username: {
-        type: Sequelize.STRING(30),
+
+      firstName: { //add by me
+        type: DataTypes.STRING,
         allowNull: false,
-        unique: true
       },
+
+      lastName: {//add by me
+        type: DataTypes.STRING,
+        allowNull: false,
+      },
+
       email: {
         type: Sequelize.STRING(256),
         allowNull: false,
         unique: true
       },
+
+      username: {
+        type: Sequelize.STRING(30),
+        allowNull: false,
+        unique: true
+      },
+
+      token: {//add by me
+        type: DataTypes.STRING,
+      },
+
       hashedPassword: {
         type: Sequelize.STRING.BINARY,
         allowNull: false
       },
+
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE,
         defaultValue: Sequelize.literal('CURRENT_TIMESTAMP')
       },
+
       updatedAt: {
         allowNull: false,
         type: Sequelize.DATE,
